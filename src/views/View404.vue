@@ -1,6 +1,6 @@
 <template>
-    <div class="col-12" id="HomeView">
-        <h1 class="col-12">This is Home View</h1>
+    <div class="col-12" id="View404">
+        <h1 class="col-12">This is 404 View</h1>
     </div>
 </template>
   
@@ -8,7 +8,7 @@
 // @ is an alias to /src
 
 export default {
-    name: 'HomeView',
+    name: 'View404',
     components: {},
     data() {
         return {
@@ -23,7 +23,7 @@ export default {
 </script>
   
 <style lang="scss" scoped>
-#HomeView {
+#View404 {
     display: flex;
     width: 100%;
 }
